@@ -2,19 +2,14 @@
 <html>
 <head>
 <title>Page Title</title>
-    <script>
-        var numArray = [1,2,3,4,5,6,7,8,9];
-        numArray.sort(function compare(first, second){
-            return first - second;
-        });
-        
-        numArray.splice(2,0,2.5);
-        
-        window.alert(numArray.splice(5,3).toString());
-        window.alert(numArray.toString());
-    </script>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script type="text/javascript" src="js/index.js"></script>
 </head>
 <body>
+    <div id="wrapper">
+        <button onclick="myArraySplice()" >Click Me For JS Fun!</button>
 
+    </div>
+    
 </body>
 </html>
