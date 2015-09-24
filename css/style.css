@@ -5,4 +5,12 @@ body{
 #wrapper{
     width: 1024px;
     margin: 0 auto;
+    color: black;
+    background-color: white;
+    min-height: 720px;
+    border-radius: 5px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    text-align:center;
 }
+
