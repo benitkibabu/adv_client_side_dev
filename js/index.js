@@ -22,4 +22,18 @@ function checkVal(){
     var test = new RegExp("//d//d//d$");
     if(!val){}
 }
-       
+
+function median(array){
+    array.sort(function(a,b){
+        return a-b;
+    });
+    var middle = Math.floor(array.length/2);
+    if(array.length % 2){
+        return array[middle];
+    }else{
+        return array[middle-1] + array[middle] / 2.0; 
+    }
+}
+
+var list = [1,3,5,7,9];
+median(list);
