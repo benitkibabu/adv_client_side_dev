@@ -37,3 +37,11 @@ function median(array){
 
 var list = [1,3,5,7,9];
 median(list);
+
+function validate(){
+    var input = document.getElementById("phone").value;
+    var expression = new RegExp("^(\([0-9]{3}\)|[0-9]{3}-)[0-9]{3}-[0-9]{4}$");
+    if(!expression.test(input)){
+        alert("not valid phone number");
+    }
+}
