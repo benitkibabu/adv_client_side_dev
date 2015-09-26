@@ -3,7 +3,7 @@ body{
     background-color:#dddddd;
 }
 #wrapper{
-    width: 1024px;
+    width: 90%;
     margin: 0 auto;
     color: black;
     background-color: white;
@@ -11,6 +11,19 @@ body{
     border-radius: 5px;
     padding-bottom: 16px;
     padding-top: 16px;
-    text-align:center;
 }
-
+.row{
+    width: 100%;
+    margin:10px 0;
+    column-count:3;
+}
+.col3{
+    width:33%;
+    float:left;
+    margin:0 2px;
+    min-height: 300px;
+    background-color: green;
+}
+p{
+    margin:10px;
+}
